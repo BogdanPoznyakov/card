@@ -25,14 +25,41 @@ body{
 
 .card{
     width: 320px;
+    height: 320px;
     background-color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 20px;
+    overflow: auto;
 }
 
 .card p{
     margin-bottom: 15px; 
+}
+
+.card img{
+    width: 100%
+}
+
+.btnCard{
+    display: inline-block;
+    margin: 25px 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #d3e910;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    color:#fff;
+    transition: 0.5s;
+}
+
+.btnCard:hover{
+    background-color: #fff;
+    color:#d3e910;
 }
