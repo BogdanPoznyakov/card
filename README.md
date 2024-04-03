@@ -7,10 +7,10 @@ translate(-50%, -50%);
 - познакомились с генераторами изображений (см. интеллект карту: goo.su/front ветка Изображения)
   - сформировали кнопку из тега а - добавили в кнопку:
     - display: inline-block;
-    -text-align: center;
-    -border: 2px solid #ccc;
-    -text-transform: uppercase;
-    -border-radius: 10px;
-    -letter-spacing: 2px;
-    -transition: 0.5s;
-    -воспользовались свойством .btnCard:hover (свойства при наведении курсора мышки на блок)
+    - text-align: center;
+    - border: 2px solid #ccc;
+    - text-transform: uppercase;
+    - border-radius: 10px;
+    - letter-spacing: 2px;
+    - transition: 0.5s;
+    - воспользовались свойством .btnCard:hover (свойства при наведении курсора мышки на блок)
